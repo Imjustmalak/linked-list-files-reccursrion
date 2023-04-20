@@ -54,8 +54,10 @@ int main() {
         add(&head, word);
 
     fclose(file);
+    
+    printf("the text is :\n");
 
     print(head);
 
-    return 0;
+   
 }
